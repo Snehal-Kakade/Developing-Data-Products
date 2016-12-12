@@ -1,0 +1,52 @@
+---
+title       : Developing Data Products Final Project
+subtitle    : Shiny Project
+author      : Snehal Kakade
+job         : 07th December 2016
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+
+
+## Course Project
+
+1. This is the final presentation for the Course Project of the "Developing data products" course
+2. This course is part of the "Data Science specialization"
+3. The project consists in two activities:
+    
+    a) Create a Shiny application
+    
+    b) Create a presentation in Slidify or Rstudio Presenter to pitch for the application.
+
+--- .class #id 
+
+## Shiny Application Functionality
+
+1. This application takes two inputs from the user:
+   
+   a) Slider input value
+   
+   b) Text input
+2. Using these slider input value histogram is displayed and the text input is displayed below the histogram.
+
+--- 
+
+## Shiny Application URL
+
+1. The application can be found in
+
+   https://snehalkakade.shinyapps.io/developingdataproducts_project/
+2. We can use the application to view the histogram and inputed text value.
+
+---  
+
+## Sample Histogram on the App
+
+```{r echo=FALSE, results='asis', message=FALSE}
+hist(rnorm(200))
+```
